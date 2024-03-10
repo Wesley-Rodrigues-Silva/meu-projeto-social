@@ -39,10 +39,8 @@ iframe.tela {
     height: 471px;
 }
 
-section.redes a {
-    display: block;
+section.redes {
     text-align: right;
-
 }
 
 section.redes img {
@@ -52,3 +50,9 @@ section.redes img {
 
 }
 
+section.redes img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.712);
+    transform: translate(-2px, -2px);
+    box-shadow: 5px 5px 5px black;
+
+}
